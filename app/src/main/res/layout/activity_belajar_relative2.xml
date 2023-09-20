@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BelajarRelativeActivity2">
+
+    <TextView
+        android:id="@+id/kiriAtas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kiri Atas"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textColor="#D32F2F"
+        android:layout_alignParentStart="true"
+        />
+    <TextView
+        android:id="@+id/kananAtas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kanan Atas"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textColor="#D32F2F"
+        android:layout_alignParentEnd="true"
+        />
+    <TextView
+        android:id="@+id/tengahAtas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tengah Atas"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textColor="#D32F2F"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/kiriTengah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kiri Tengah"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textColor="#D32F2F"
+        android:layout_centerInParent="true"
+        android:layout_alignParentStart="true"
+        />
+    <TextView
+        android:id="@+id/tengahTengah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tengah Tengah"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textColor="#D32F2F"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+    <TextView
+        android:id="@+id/kananTengah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kanan Tengah"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textColor="#D32F2F"
+        android:layout_centerInParent="true"
+        android:layout_alignParentEnd="true"
+        />
+
+      <TextView
+        android:id="@+id/bawahKiri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bawah Kiri"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textColor="#D32F2F"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        />
+    <TextView
+        android:id="@+id/bawahTengah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bawah Tengah"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textColor="#D32F2F"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        />
+    <TextView
+        android:id="@+id/Bawahkanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bawah Kanan"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textColor="#D32F2F"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:id="@+id/akuTengah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Aku di atas tengah"
+        android:textAllCaps="true"
+        android:textColor="#303F9F"
+        android:textSize="17dp"
+        android:layout_above="@+id/tengahTengah"/>
+
+</RelativeLayout>

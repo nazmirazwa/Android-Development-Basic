@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardDoaActivity2">
+
+    <RelativeLayout
+        android:id="@+id/gambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        >
+        <TextView
+            android:id="@+id/doa1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do'a dan Dzikir App"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="210dp"
+            />
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="270dp"
+            android:src="@drawable/logo_doa"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="20dp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tulisan"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Pilihan Doa dan Dzikir"
+        android:textSize="25sp"
+        android:textColor="#7B1FA2"
+        android:layout_below="@id/gambar"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvSelengkapnya"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:backgroundTint="#8A8484"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/gambar"
+        android:layout_toRightOf="@+id/tulisan"
+        app:cardCornerRadius="20dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Selengkapnya"
+                android:textSize="14dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:layout_marginStart="15dp"
+                android:drawableRight="@drawable/baseline_arrow_forward_24"
+                android:drawableTint="#7B1FA2"
+                />
+<!--            <ImageButton-->
+<!--                android:id="@+id/arrow"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/baseline_arrow_forward_24"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="2dp"-->
+<!--                android:layout_marginStart="2dp"-->
+<!--                android:layout_marginEnd="2dp"-->
+<!--                />-->
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:id="@+id/inDoa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tulisan"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/textDoa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BelajarAndroidActivity</string>
+    <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="judul_doa"><![CDATA[Doa & Dzikir App]]></string>
+    <string name="doa_harian"><![CDATA[Doa & Dzikir Harian]]></string>
+    <string name="alhamdu_lillahil_ladzii_ahyaanaa_ba_da_maa_amaa_tanaa_wa_ilahin_nusyuuru">Alhamdu lillahil ladzii ahyaanaa ba\'da maa amaa tanaa wa ilahin nusyuuruُ</string>
+</resources>
